@@ -24,7 +24,7 @@ jobs:
     # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-                        curl -X POST \
+              curl -X POST \
                 -H 'Content-type: application/json' \
                 -H 'auth-token: 55c08bd8-0faa-4d66-8f63-e88d7ccde360' \
                 --data '{"forceCancelPreviousTesting":true,"storedValues":{"storedValueName1":"Value"}}' \
